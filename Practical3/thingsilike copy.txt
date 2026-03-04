@@ -4,10 +4,7 @@ I like volleyball
 I like reading books
 I like tea
 I like strawberry
-<<<<<<< HEAD
 I like Bayern Munich
-=======
 I like Bayern Munich
 I dont like being pressured
 I like drinks
->>>>>>> Alex
