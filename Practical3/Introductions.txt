@@ -1,4 +1,4 @@
-Hello, my name is Rob.
-I like drinking tea and eating chocolate biscuits.
-I am enjoying teaching IBI1 in person again 
+Hello, my name is ChujianWei
+I like playing football and my best team is Bayern Munich
+I am enjoying studing IBI1 and I want to master coding 
 I am happy that I can push my repo from Visual Studio Code to GitHub
