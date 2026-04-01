@@ -3,7 +3,7 @@ import re
 seq = 'AAGAUACAUGCAAGUGGUGUGUCUGUUCUGAGAGGGCCUAAAAG'
 start = 'AUG'
 stop = ["UAA", "UAG", "UGA"]
-longet = 0
+longest = 0
 
 for s in re.finditer("AUG",seq):
     sp = (s.start())
@@ -16,12 +16,12 @@ for s in re.finditer("AUG",seq):
         if codon in stop:
             lengths = i - sp + 3
 
-            if lengths > longet:
-                longet = lengths
+            if lengths > longest:
+                longest = lengths
                 
             break
 
     else:
         print("no stop codon found")
 
-print(f"the longest ORF is {longet} bases long")
+print(f"the longest ORF is {longest} bases long")
