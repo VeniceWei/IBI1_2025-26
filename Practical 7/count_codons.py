@@ -70,8 +70,6 @@ for gene_name, sequence in gene_sequences.items():
 labels = list(codon_counts.keys())
 values = list(codon_counts.values())
 
-# 画饼图
-
 plt.figure(figsize=(23,23))
 plt.title('Codon Usage Upstream of Stop Codon')
 plt.pie(values, labels=labels, autopct='%.1f%%')
