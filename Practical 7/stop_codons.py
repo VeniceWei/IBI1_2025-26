@@ -5,7 +5,6 @@ input_fasta = "Saccharomyces_cerevisiae.R64-1-1.cdna.all.fa"
 output_fasta = "stop_genes.fa"
 
 def read_fasta(filename):
-    """读取FASTA文件，返回 基因名:序列 字典"""
     sequences = {}
     current_name = None
     current_seq = []
