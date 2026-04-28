@@ -1,0 +1,3 @@
+Question: Which country had the highest average annual DALYs and which had the lowest average annual DALYs between 1990 and 2019?
+This questoin will be addressed from line 43
+The country with the highest average DALYs likely carries a very heavy disease burden, while the country with the lowest average DALYs has relatively good global health conditions over the 1990–2019 period
