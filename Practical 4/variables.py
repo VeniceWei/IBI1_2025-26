@@ -5,6 +5,7 @@ d = b - a
 # d is the population growth from 2004 to 2014
 e = c - b
 # e is the population growth from 2014 to 2024
+# d = 0.25 & e = 0.22, d > e, the population growth is decelerating
 if e > d:
     print ("population growth is accelerating")
 # if e > d, the population growth of the current decade is larger then the last decade
