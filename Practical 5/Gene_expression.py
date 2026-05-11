@@ -23,6 +23,7 @@ ind = np.arange(N)
 width = 0.3
 p1 = plt.bar(ind, expressions, width)
 plt.ylabel('expressions')
+plt.xlabel('genes')
 plt.title('expressions of genes')
 plt.xticks(ind, ('TP53', 'EGFR', 'BRCA', 'PTEN', 'ESR1', 'MYC',))
 plt.yticks(np.arange(0,21,2))
