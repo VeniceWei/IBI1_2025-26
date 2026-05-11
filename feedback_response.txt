@@ -1,0 +1,50 @@
+I am writing to share my response to the feedback I received for my formative code portfolio
+
+Practical 3:
+
+My problem was that some of the commit messages didn't provide enough information
+While for this feedback I cannot make changes.
+However, I will make sure the commit messages I leave are informative in the future
+
+Practical 4:
+
+variables.py
+
+My problem was that there is no comment about whether d or e is bigger
+In response, I added # d = 0.25 & e = 0.22, d > e, the population growth is decelerating
+
+infection.py
+
+I got full score
+
+mystery_code.py
+
+My problem was that my interpretation of the code was "It calculates the sum of 10 random numbers ranging from 1~10"
+Actually the code calculates the sum of 11 random numbers
+So I changed my interpretation to "It calculates the sum of 11 random numbers ranging from 1~10"
+
+creatine_clearance.py
+
+My problem is that my error messages do not report which input is invalid
+In response, I added code to judge whether each input is valid and detail the error message
+This is an example of the code I added:
+
+    if age <= 0 or age >= 100:
+    print("The age of the student should be less than 100 years.")
+
+Practical 5
+
+File for looking at gene expression exists
+
+My problem is that there was no x-asis label in the paragraph generated
+In response, I added
+    plt.xlabel('genes')
+to label x-asis
+
+File for studying heart rates exists
+
+I got full score
+
+File for studying population growth exists
+
+I got full score
